@@ -1,4 +1,4 @@
-# Glean Assist
-### [Live Site](http://gleanassist.xyz/)
+# sdamissionug
+### [Live Site](http://sdamissionug.com/)
 
-![Glean Assist](http://gleanassist.xyz/)
+![sdamissionug](http://sdamissionug.com/)
