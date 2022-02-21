@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+sitemap: https://sdamissionug.com/sitemap
