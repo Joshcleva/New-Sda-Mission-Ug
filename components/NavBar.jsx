@@ -90,7 +90,7 @@ function NavBar() {
                     </Link>
                   ))}
                 </div>
-                <div className="md:absolute md:mt-10">
+                <div className="md:absolute md:mt-16">
                   <Link href="/SearchSdaMissionUg">
                     <span className="flex transition duration-500 ease transform hover:-translate-y-1 inline-block mt-8 mb-8 bg-green-400 text-sm font-small rounded-full text-white md:py-0 px-4 py-3 cursor-pointer md: mx-20">
                       Search
