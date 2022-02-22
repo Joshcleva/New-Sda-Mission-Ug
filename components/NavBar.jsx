@@ -83,16 +83,14 @@ function NavBar() {
                   {categories.map((category, index) => (
                     <Link key={index} href={`/category/${category.slug}`}>
                       <span
-                        className="text-black
- hover:bg-gray-600 hover:text-white
- block px-3 py-2 rounded-md text-base font-semibold cursor-pointer"
+                        className="text-black hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-semibold cursor-pointer"
                       >
                         {category.name}
                       </span>
                     </Link>
                   ))}
                 </div>
-                <div className="md:absolute md:mt-16">
+                <div className="md:absolute md:mt-10">
                   <Link href="/SearchSdaMissionUg">
                     <span className="flex transition duration-500 ease transform hover:-translate-y-1 inline-block mt-8 mb-8 bg-green-400 text-sm font-small rounded-full text-white md:py-0 px-4 py-3 cursor-pointer md: mx-20">
                       Search
