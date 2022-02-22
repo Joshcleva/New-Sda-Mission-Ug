@@ -22,6 +22,7 @@ const Search = ({ posts }) => {
           content="Seventhday Adventist music, Seventhday Adventist hymnal Sda lesson, sda mission story, Sda, granite bay church sda, sda church, sda sabbath school lesson"
         />
         <link rel="icon" href="/images/smlogo.png" />
+        
       </Head>
       <div class="justify-center flex w-full pt-2 mt-4 relative mx-auto text-gray-600">
         <input
