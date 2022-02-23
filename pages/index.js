@@ -9,7 +9,7 @@ export default function Home({ posts }) {
   const [posted] = useState(posts.slice(0, 5000));
 
   const [currentPage, setcurrentPage] = useState(1);
-  const [itemsPerPage, setitemsPerPage] = useState(25);
+  const [itemsPerPage, setitemsPerPage] = useState(30);
 
   const [PageNumberLimit] = useState(8);
   const [maxPageNumberLimit, setmaxPageNumberLimit] = useState(8);
