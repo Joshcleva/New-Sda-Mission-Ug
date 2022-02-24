@@ -66,10 +66,6 @@ class MyDocument extends Document {
           ></ins>
           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-          <meta
-            name="hilltopads-site-verification"
-            content="8db77846f683c5d722777f9dc830f75e8a872032"
-          />
         </Head>
         <body>
           <Main />
