@@ -66,6 +66,11 @@ class MyDocument extends Document {
           ></ins>
           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
+          <script
+            async
+            src="https://cse.google.com/cse.js?cx=e70ba9c5796c3bc6d"
+          ></script>
+          <div class="gcse-search"></div>
         </Head>
         <body>
           <Main />

@@ -38,9 +38,9 @@ export default ScrollToTopButton;
 
 const ScrollWrap = styled.div`
   position: fixed;
-  diplay: relative;
+  display: relative;
   bottom: 1rem;
-  right: 0rem;
+  right: 1rem;
 `
 
 const ScrollButton = styled.div`
