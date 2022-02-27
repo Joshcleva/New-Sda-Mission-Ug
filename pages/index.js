@@ -98,11 +98,10 @@ export default function Home({ posts }) {
             sermons and accapella all over the world
           </p>
         </div>
-        <div>
-          <iframe
+        <div className="flex text-center justify-center mt-4">
+          <Iframe
             src="https://zeno.fm/player/sda-mission-radio"
-            className="block lg:flex text-center  h-72 justify-center mb-4 lg:mb-0 w-full lg:w-full items-center lg:items-center overflow-hidden "
-          ></iframe>
+          ></Iframe>
         </div>
       </div>
       <div className="lg:flex lg:gap-4">
@@ -239,3 +238,15 @@ const Next = styled.div`
     cursor: pointer;
   }
 `;
+
+const Iframe = styled.iframe`
+text-align: center;
+height: auto;
+width: 80%;
+top: 10px;
+display: flex;
+justify-content: center;
+bottom: 10px;
+overflow: hidden;
+align-items: center;
+`
