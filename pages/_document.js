@@ -66,6 +66,10 @@ class MyDocument extends Document {
           ></ins>
           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          ></script>
         </Head>
         <body>
           <Main />
