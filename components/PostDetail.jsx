@@ -114,10 +114,6 @@ const PostDetail = ({ post }) => {
                 Download Audio
               </span>
 
-              <div style={{ overflow: 'hidden', minWidth: '300px', minHeight: '250px' }}>
-                <AdBanner/>
-              </div>
-
               <div>
                 <iframe
                   className=" font-medium justify-center"
@@ -168,6 +164,9 @@ const PostDetail = ({ post }) => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <AdBanner />
       </div>
     </div>
   );
