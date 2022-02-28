@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.4.3",
+    "@types/react": "^17.0.39",
     "emailjs-com": "^3.2.0",
     "graphql": "^15.6.1",
     "graphql-request": "^3.5.0",

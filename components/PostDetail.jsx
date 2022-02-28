@@ -2,7 +2,8 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import { grpahCMSImageLoader } from "../util";
-import ReactPlayer from 'react-player';
+import ReactPlayer from "react-player";
+import AdBanner from "./AdBanner";
 
 const PostDetail = ({ post }) => {
   const getContentFragment = (index, text, obj, type) => {
@@ -112,6 +113,11 @@ const PostDetail = ({ post }) => {
               <span className="transition duration-500 ease transform hover:-translate-y-1 inline-block mt-2 bg-green-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">
                 Download Audio
               </span>
+
+              <div>
+                <AdBanner/>
+              </div>
+
               <div>
                 <iframe
                   className=" font-medium justify-center"
