@@ -114,7 +114,7 @@ const PostDetail = ({ post }) => {
                 Download Audio
               </span>
 
-              <div>
+              <div style={{ overflow: 'hidden', minWidth: '300px', minHeight: '250px' }}>
                 <AdBanner/>
               </div>
 
