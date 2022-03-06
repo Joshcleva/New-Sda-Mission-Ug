@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { grpahCMSImageLoader } from "../util";
 import ReactPlayer from "react-player";
-import AdBanner from "./AdBanner";
+// import AdBanner from "./AdBanner";
 
 const PostDetail = ({ post }) => {
   const getContentFragment = (index, text, obj, type) => {
@@ -165,9 +165,9 @@ const PostDetail = ({ post }) => {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <AdBanner />
-      </div>
+      </div> */}
     </div>
   );
 };
